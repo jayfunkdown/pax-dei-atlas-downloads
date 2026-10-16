@@ -128,7 +128,7 @@ The next image illustrates how an offered update will look. It is a private scre
 
 ## About and feedback
 
-Atlas is a fan-made companion in active development. Feedback, ideas and reproducible bug reports are welcome on the [Atlas Discord](https://discord.gg/YjJxCBbeJU) and through this repository's Issues page. Discord has general chat, release notes, bug reports and feature requests. A website is planned.
+Atlas is a fan-made companion in active development. Feedback, ideas and reproducible bug reports are welcome on the [Atlas Discord](https://discord.gg/YjJxCBbeJU) and through this repository's Issues page. Discord has general chat, release notes, bug reports, feature requests and feedback. A website is planned.
 
 ![About screen](screenshots/about.png)
 

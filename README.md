@@ -39,6 +39,6 @@ This public repository contains feature information, screenshots and, later, app
 
 Ideas, usability feedback and reproducible bug reports are welcome through [GitHub Issues](https://github.com/jayfunkdown/pax-dei-atlas-downloads/issues). Include the app version and what happened. Please remove access codes, private room codes, personal details and unrelated chat messages from screenshots before posting.
 
-[Join the Pax Dei Atlas Discord](https://discord.gg/YjJxCBbeJU) for community chat, release notes, bug reports and feature requests. A dedicated website is planned.
+[Join the Pax Dei Atlas Discord](https://discord.gg/YjJxCBbeJU) for community chat, release notes, bug reports, feature requests and feedback. A dedicated website is planned.
 
 Pax Dei Atlas is an unofficial fan-made companion and is not affiliated with or endorsed by Mainframe Industries. Pax Dei and its game assets belong to their respective owners.
