@@ -72,7 +72,7 @@ When you approach a supported possible encounter, Atlas can display an illustrat
 
 ![Named enemy, relic and related equipment cards](screenshots/named-enemy-cards.png)
 
-Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower replaces those cards, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **50 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. A small switching margin and a larger exit range help avoid flickering during position corrections. A cooldown limits repeat notifications at the same POI.
+Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower replaces those cards, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. A cooldown limits repeat notifications at the same POI.
 
 Some supported enemies have broader open-ground spawn zones, including reviewed areas in southwest Kerys. Those remain area highlights because a single tower marker would misrepresent their records. Several possible spawn locations do not mean that every displayed enemy can spawn at every point inside a combined area.
 
