@@ -8,7 +8,7 @@ Atlas is a Windows map companion for Pax Dei. This guide shows the current beta 
 
 The main map opens around your current area. Drag the parchment to pan, use the mouse wheel or the plus/minus controls to zoom, and choose another province from the map selector. Crossing an area boundary keeps your chosen zoom. Small position corrections can move the marker without constantly moving the whole camera.
 
-Atlas uses visible game-map and compass information, then estimates movement between position confirmations. Tracking accuracy can vary, especially after interruptions or when landmarks are unclear. If the marker needs correcting, opening the in-game map with the player arrow visible can help Atlas confirm its position. Panning the game map to scenery without a player arrow should not become a position fix.
+Atlas uses visible game-map and compass information, then estimates movement between position confirmations. Tracking accuracy can vary, especially after interruptions or when landmarks are unclear. During a brief unreadable compass interval, Atlas can keep estimating movement from the last heading for up to eight seconds; a longer outage pauses movement until a fresh heading arrives. Turns during that interval can reduce accuracy. If the marker needs correcting, opening the in-game map with the player arrow visible can help Atlas confirm its position. Panning the game map to scenery without a player arrow should not become a position fix.
 
 ![Main map and adjustable map/party divider](screenshots/main-map.png)
 
@@ -72,7 +72,7 @@ When you approach a supported possible encounter, Atlas can display an illustrat
 
 ![Named enemy, relic and related equipment cards](screenshots/named-enemy-cards.png)
 
-Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower replaces those cards, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. A cooldown limits repeat notifications at the same POI.
+Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower replaces those cards, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. There is no cooldown: leaving or switching away rearms the POI immediately, so returning can show its cards again. Staying inside does not repeatedly replay them. Use the Named toggle to turn these notifications off.
 
 Some supported enemies have broader open-ground spawn zones, including reviewed areas in southwest Kerys. Those remain area highlights because a single tower marker would misrepresent their records. Several possible spawn locations do not mean that every displayed enemy can spawn at every point inside a combined area.
 
