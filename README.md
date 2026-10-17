@@ -4,13 +4,13 @@
 
 Pax Dei Atlas brings a readable main map, an adjustable minimap, party tools and illustrated encounter references into one Windows companion app. Keep your group together, mark a destination, check nearby points of interest, and make the next adventure easier to organize.
 
-![Pax Dei Atlas main map with a sample party, a peach trail and map markers](screenshots/main-map.png)
+![Pax Dei Atlas main map with a sample party, a sample route trace and map markers](screenshots/main-map.png)
 
 ## Beta status
 
-**0.92 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.921 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.2/Pax-Dei-Atlas-Setup-0.9.2-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.2) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.21/Pax-Dei-Atlas-Setup-0.9.21-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.21) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
 
@@ -25,7 +25,7 @@ This public repository contains feature information, screenshots and beta downlo
 | Main map | Pan and zoom, see your approximate position, and adjust the space shared with the party panel. |
 | Minimap | A circular map with adjustable size and opacity, convenient controls and party directions. |
 | Filters and favourites | Choose which locations, resources, creatures and other map entries to show; pin up to four favourites. |
-| Shared flags and trails | Mark a destination and follow a peach-highlighted record of your recent route. |
+| Shared flags and trails | Mark a destination and follow a gold line recording of your recent route. |
 | Party travel | Join with a room code, see shared party positions and check each traveller's area and approximate distance. |
 | Roll, Pass, Ready and Wait | Make group decisions with animated cards, a winner indicator, ready checks and short wait requests. |
 | Named encounters | See possible spawn locations and illustrated enemy, relic and crafting-result cards. |

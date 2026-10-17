@@ -32,9 +32,9 @@ Pin up to four favourites to make frequently used filters accessible on both map
 
 Use **Alt + left-click** on the map to add, replace or remove your flag. Party flags are shared so the group can agree on a destination; an off-screen flag retains a direction indicator.
 
-Turn **Trace** on to show your recent route as a broad peach highlight. Small corrections can remain connected, while large position jumps start a separate section instead of drawing a long line across the map. The trail is temporary: disabling it clears it, and it starts fresh in a new app session. It is a route display, not an automatically calculated walking path.
+Turn **Trace** on to show your recent route as a clear gold line with a dark outline. Small corrections can remain connected, while large position jumps start a separate section instead of drawing a long line across the map. The trail is temporary: disabling it clears it, and it starts fresh in a new app session. It is a route display, not an automatically calculated walking path.
 
-The main-map screenshot above includes an example flag and peach trail.
+The main-map screenshot above includes an example flag and route trace.
 
 ## Party travel and the movable divider
 
@@ -72,7 +72,7 @@ When you approach a supported possible encounter, Atlas can display an illustrat
 
 ![Named enemy, relic and related equipment cards](screenshots/named-enemy-cards.png)
 
-Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower replaces those cards, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. There is no cooldown: leaving or switching away rearms the POI immediately, so returning can show its cards again. Staying inside does not repeatedly replay them. Use the Named toggle to turn these notifications off.
+Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower changes the highlight immediately and queues its cards after the current notification finishes, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. Each location has a five-minute cooldown after its cards are triggered. Staying inside does not repeatedly replay them. Use the Named toggle to turn these notifications off.
 
 Some supported enemies have broader open-ground spawn zones, including reviewed areas in southwest Kerys. Those remain area highlights because a single tower marker would misrepresent their records. Several possible spawn locations do not mean that every displayed enemy can spawn at every point inside a combined area.
 
@@ -86,7 +86,7 @@ Supported dungeon pages provide map artwork and a reference to possible named en
 
 ## Minimap appearance and HUD alignment
 
-Choose a minimap size or a custom size, adjust opacity, and match Atlas to the game's UI-size preset so cards align with the HUD. Use **Reset overlay position** if the placement needs restoring. The minimap is circular.
+Choose a minimap size, adjust opacity, and match Atlas to the game's UI-size preset so cards align with the HUD. Use **Reset overlay position** if the placement needs restoring. The minimap is circular.
 
 ![Minimap appearance and HUD alignment settings](screenshots/settings-minimap.png)
 

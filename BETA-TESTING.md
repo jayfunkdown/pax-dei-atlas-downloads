@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.92 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.2/Pax-Dei-Atlas-Setup-0.9.2-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.921 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.21/Pax-Dei-Atlas-Setup-0.9.21-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -14,13 +14,13 @@ An internet connection is required to activate and validate access. Beta codes n
 
 - Tracking while stationary, walking, sprinting, crossing area boundaries, opening the game map, closing chat and returning from menus.
 - Named cards, crafted-item tiers, drum volume, reentering a POI and moving between nearby POIs.
-- Main map/minimap size, zoom, filters and favourites; shared flags and peach route traces.
+- Main map/minimap size, zoom, filters and favourites; shared flags and gold route lines.
 - Party travel and Roll/Pass, Ready and Wait tools.
 - Dungeon entry, maps, enemy roster and exit recovery.
 
 ## Current limits
 
-Tracking is approximate. Wrong corrections, drift or brief pauses can occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon entry uses a60-second/30m entrance heuristic and can trigger while waiting outside. There is no indoor position tracking; dungeon mode currently depends on the Named toggle.
+Tracking is approximate. Wrong corrections, drift or brief pauses can occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
 
 ## Send feedback
 
@@ -32,6 +32,6 @@ Use Settings > Updates. If a newer beta is available, Update now downloads and v
 
 ## Beta statistics and privacy
 
-Usage and reliability reporting is enabled by default during beta. You can turn it off in **Settings → Privacy**. Reports include feature use, observed activity time, version, display size/scale and game UI preset, tracking pauses/corrections, renderer failures and update results. A random installation identifier distinguishes device profiles; it is not a verified person. Access verification authenticates uploads, but access codes and session tokens are not stored in statistics. Names, chat, screenshots, exact positions and travel routes are excluded. Reports are kept privately for up to 90 days. Turning reporting off stops uploads and removes the local identifier and unsent reports; previously received reports expire automatically. Access checks and online counts remain separate.
+Usage and reliability reporting is enabled by default during beta. You can turn it off in **Settings → Privacy**. Reports include feature use, observed activity time, version, display size/scale and game UI preset, tracking pauses/corrections, renderer failures and update results. A random installation identifier distinguishes device profiles; it is not a verified person. Access verification authenticates uploads, but access codes and session tokens are not stored in statistics. Technical reports can also include CPU/GPU models, driver and Windows versions, memory, monitor resolution/scale/refresh, game-window dimensions, sanitized errors and missing artwork references. Names, chat, screenshots, exact positions and travel routes are excluded. On closing Atlas, choose **Send report & close**, **Close without a report**, or **Cancel**. You can choose **Always send automatically**; crash recovery reports retry automatically when reporting is enabled. Usage reports are kept privately for up to 90 days; technical diagnostics for up to 30 days. Turning reporting off stops uploads and removes the local identifier and unsent reports; previously received reports expire automatically. Access checks and online counts remain separate.
 
 ![Atlas Privacy settings with reporting turned off](screenshots/privacy-settings.png)
