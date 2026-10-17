@@ -8,11 +8,13 @@ Pax Dei Atlas brings a readable main map, an adjustable minimap, party tools and
 
 ## Beta status
 
-**0.91 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.92 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.1/Pax-Dei-Atlas-Setup-0.9.1-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.1) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.2/Pax-Dei-Atlas-Setup-0.9.2-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.2) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
+
+Beta usage and reliability reporting is enabled by default. You can turn it off in **Settings → Privacy**. Reports use a random installation identifier and exclude names, codes, chat, screenshots and exact locations. Reports are stored privately for up to 90 days.
 
 This public repository contains feature information, screenshots and beta downloads. Application source is maintained separately in a private repository.
 

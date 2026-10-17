@@ -142,3 +142,7 @@ Named-card borders follow the crafted item's tier: II keeps a simple brass borde
 POI notifications use65m entry/100m exit. Standalone encounters use90m entry/100m exit with a larger180m-wide highlight. New POI highlights replace older ones immediately; already playing card groups finish before the next queued group.
 
 Dungeon recognition currently estimates entry after60 seconds within30m of a documented entrance. The main window shows the dungeon reference map and roster; the minimap shows dungeon status. Indoor position tracking is unavailable. Detection can trigger while waiting outside and currently depends on Named being enabled.
+
+## Optional beta statistics
+
+Settings → Privacy controls usage and reliability reporting, enabled by default for beta testing. Reports use a random installation identifier, are stored privately for up to 90 days, and exclude names, access codes, chat, screenshots, exact positions and routes. See the [tester guide](BETA-TESTING.md#beta-statistics-and-privacy) for details.

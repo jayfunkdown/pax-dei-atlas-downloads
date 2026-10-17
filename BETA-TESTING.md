@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.91 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.1/Pax-Dei-Atlas-Setup-0.9.1-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.92 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.2/Pax-Dei-Atlas-Setup-0.9.2-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -29,3 +29,9 @@ Use the Discord bug-reports, feature-requests or feedback channels, or [GitHub I
 ## Updating
 
 Use Settings > Updates. If a newer beta is available, Update now downloads and verifies it, closes Atlas, installs into the same folder and reopens. Settings and valid saved access are retained. You can also close Atlas and run a newer official Setup manually.
+
+## Beta statistics and privacy
+
+Usage and reliability reporting is enabled by default during beta. You can turn it off in **Settings → Privacy**. Reports include feature use, observed activity time, version, display size/scale and game UI preset, tracking pauses/corrections, renderer failures and update results. A random installation identifier distinguishes device profiles; it is not a verified person. Access verification authenticates uploads, but access codes and session tokens are not stored in statistics. Names, chat, screenshots, exact positions and travel routes are excluded. Reports are kept privately for up to 90 days. Turning reporting off stops uploads and removes the local identifier and unsent reports; previously received reports expire automatically. Access checks and online counts remain separate.
+
+![Atlas Privacy settings with reporting turned off](screenshots/privacy-settings.png)
