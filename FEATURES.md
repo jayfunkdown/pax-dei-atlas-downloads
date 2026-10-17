@@ -72,7 +72,9 @@ When you approach a supported possible encounter, Atlas can display an illustrat
 
 ![Named enemy, relic and related equipment cards](screenshots/named-enemy-cards.png)
 
-Tower-linked records activate **one POI at a time**. Multiple named enemies mapped to that POI share one small highlight and its card sequence. Entering another tower changes the highlight immediately and queues its cards after the current notification finishes, even when the same enemy has a recorded spawn at both towers. Notifications currently begin about **65 metres from the mapped POI** (or the recorded point when there is no matching POI). This is a test distance and may be tightened. The highlight stays until you move beyond 100 metres or switch to another POI. A small switching margin helps avoid flickering during position corrections. Each location has a five-minute cooldown after its cards are triggered. Staying inside does not repeatedly replay them. Use the Named toggle to turn these notifications off.
+Mapped POIs trigger from about **65 metres** away; unmatched standalone locations use **90 metres**. Nearby enemies share their POI’s complete card sequence. New POI card groups queue after the current group. Surface discoveries retain their circle highlight and larger brass encounter-card replay icon for **15 minutes**. Click to replay the whole group; replay does not extend expiry, and walking away/back does not automatically repeat it during that window. Several discoveries can remain visible. After expiry, the next approach can trigger again.
+
+Only one nearby dotted guide appears. Clicking replay selects that encounter; a newly triggered encounter takes over. Ordinary POI guide lines disconnect beyond **100 metres**, while the replay marker remains for its full window. Named cards sit at the game viewport’s bottom centre, scale with resolution, and use an opaque heading at the Medium stamina-bar position. Surface cards no longer black out the minimap. Use Named to turn the feature off.
 
 Some supported enemies have broader open-ground spawn zones, including reviewed areas in southwest Kerys. Those remain area highlights because a single tower marker would misrepresent their records. Several possible spawn locations do not mean that every displayed enemy can spawn at every point inside a combined area.
 
@@ -80,13 +82,13 @@ Some supported enemies have broader open-ground spawn zones, including reviewed 
 
 ## Dungeon maps and encounter references
 
-Supported dungeon pages provide map artwork and a reference to possible named enemies, relics and crafting results. Atlas displays a dungeon notice and pauses position tracking inside the dungeon; it does not claim to show your live position on the dungeon map. The overworld view returns when Atlas recognizes that you have left.
+Supported dungeon pages provide map artwork and a reference to possible named enemies, relics and crafting results. Atlas displays a dungeon notice and pauses position tracking inside the dungeon; it does not claim to show your live position on the dungeon map. The overworld view returns after fresh position evidence. Approaching an entrance only highlights it: cards wait for the interior Zone / Biome tag, play once on entry, and cannot be replayed.
 
 ![Dungeon map and encounter-reference interface](screenshots/dungeon-map.png)
 
 ## Minimap appearance and HUD alignment
 
-Choose a minimap size, adjust opacity, and match Atlas to the game's UI-size preset so cards align with the HUD. Use **Reset overlay position** if the placement needs restoring. The minimap is circular.
+Choose a minimap size and adjust opacity. Party overlays use the Medium game-UI baseline; named cards scale with resolution and stay at the viewport bottom. Use **Reset overlay position** if the placement needs restoring. The minimap is circular.
 
 ![Minimap appearance and HUD alignment settings](screenshots/settings-minimap.png)
 
