@@ -8,9 +8,13 @@ Pax Dei Atlas brings a readable main map, an adjustable minimap, party tools and
 
 ## Beta status
 
-Atlas is actively developed and being tested. **There is no public installer or release candidate available from this repository yet.** Downloads will appear under [Releases](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases) when an approved build is ready. No access codes are published here.
+**0.91 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-This public repository contains feature information, screenshots and, later, approved downloads. Application source is maintained separately in a private repository.
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.1/Pax-Dei-Atlas-Setup-0.9.1-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.1) · [Tester quick start](BETA-TESTING.md)
+
+A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
+
+This public repository contains feature information, screenshots and beta downloads. Application source is maintained separately in a private repository.
 
 ## What Atlas includes
 
@@ -32,7 +36,7 @@ This public repository contains feature information, screenshots and, later, app
 
 - Tracking is approximate. Atlas reads visible game-map and compass information and estimates movement between confirmations. It can need another clear view of the in-game map to correct its position.
 - Named-enemy locations are potential spawn records, not confirmation that an enemy is alive or currently present.
-- Screenshots show the actual beta interface with a fictional party and sample status values. The update-available screenshot is an illustration; no update is currently offered.
+- Screenshots show the actual beta interface with a fictional party and sample status values. The update-available screenshot is an illustration; your installed version determines whether an update is offered.
 - A beta access code unlocks Atlas. A party room code invites someone to your group; these are different codes.
 
 ## Feedback

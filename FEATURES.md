@@ -1,6 +1,6 @@
 # Pax Dei Atlas feature guide
 
-Atlas is a Windows map companion for Pax Dei. This guide shows the current beta interface. Screenshots use a fictional party and sample values; the interface and behavior may change during development. No public installer or release candidate is available yet.
+Atlas is a Windows map companion for Pax Dei. This guide shows the current beta interface. Screenshots use a fictional party and sample values; the interface and behavior may change during development. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
 
 [Back to the project overview](README.md)
 
@@ -118,11 +118,11 @@ Settings includes a manual update check. Packaged beta builds also check automat
 
 Click **Update now** to download the approved installer from the dedicated GitHub downloads repository. Atlas verifies the download before handing it to the installer, closes, installs into its existing folder and reopens. Settings and valid saved access remain in place.
 
-**No update is currently published.** This is the normal current screen:
+The app reports that it is current when the installed version matches the published beta. This screenshot shows that state:
 
 ![Updates settings with no offered public release](screenshots/settings-updates.png)
 
-The next image illustrates how an offered update will look. It is a private screenshot fixture, not an announcement of an available download:
+The next image illustrates how an offered update will look. It is a screenshot fixture illustrating the offer shown when a newer version is available:
 
 ![Illustration of the update-available screen](screenshots/update-available.png)
 
@@ -133,3 +133,12 @@ Atlas is a fan-made companion in active development. Feedback, ideas and reprodu
 ![About screen](screenshots/about.png)
 
 Please do not include real beta codes, private room codes, personal information or unrelated player chat in public reports. Atlas is unofficial and is not affiliated with or endorsed by Mainframe Industries.
+
+## Beta 0.91 encounter presentation
+Named-card borders follow the crafted item's tier: II keeps a simple brass border, III uses sculpted corner detail, and IV adds raised ornaments. Every enemy card set uses the same drum cue and a 10-second hold between two-second fades.
+
+![Tier II, III and IV cards from the beta renderer](screenshots/named-card-tiers.png)
+
+POI notifications use65m entry/100m exit. Standalone encounters use90m entry/100m exit with a larger180m-wide highlight. New POI highlights replace older ones immediately; already playing card groups finish before the next queued group.
+
+Dungeon recognition currently estimates entry after60 seconds within30m of a documented entrance. The main window shows the dungeon reference map and roster; the minimap shows dungeon status. Indoor position tracking is unavailable. Detection can trigger while waiting outside and currently depends on Named being enabled.
