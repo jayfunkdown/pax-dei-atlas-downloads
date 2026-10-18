@@ -1,5 +1,7 @@
 # Pax Dei Atlas 0.924 Beta
 
+19 October 2026
+
 A regular beta release for invited Windows 10/11 x64 testers.
 
 [Download the Windows installer](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.24/Pax-Dei-Atlas-Setup-0.9.24-x64.exe) · [Installation and beta guide](https://github.com/jayfunkdown/pax-dei-atlas-downloads/blob/main/BETA-TESTING.md) · [Discord](https://discord.gg/YjJxCBbeJU)
