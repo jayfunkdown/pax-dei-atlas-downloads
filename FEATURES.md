@@ -6,7 +6,7 @@ Atlas is a Windows map companion for Pax Dei. This guide shows the current beta 
 
 ## Main map and position tracking
 
-The main map opens around your current area. Drag the parchment to pan, use the mouse wheel or the plus/minus controls to zoom, and choose another province from the map selector. Crossing an area boundary keeps your chosen zoom. Small position corrections can move the marker without constantly moving the whole camera.
+The main map opens around your current area. Drag the parchment to pan, use the mouse wheel or the plus/minus controls to zoom, and choose another province from the selector below the map. Recenter returns to your current area. Crossing an area boundary keeps your chosen zoom. Small position corrections can move the marker without constantly moving the whole camera.
 
 Atlas uses visible game-map and compass information, then estimates movement between position confirmations. Tracking accuracy can vary, especially after interruptions or when landmarks are unclear. During a brief unreadable compass interval, Atlas can keep estimating movement from the last heading for up to eight seconds; a longer outage pauses movement until a fresh heading arrives. Turns during that interval can reduce accuracy. If the marker needs correcting, opening the in-game map with the player arrow visible can help Atlas confirm its position. Panning the game map to scenery without a player arrow should not become a position fix.
 
@@ -148,3 +148,11 @@ Dungeon recognition currently estimates entry after60 seconds within30m of a doc
 ## Optional beta statistics
 
 Settings → Privacy controls usage and reliability reporting, enabled by default for beta testing. Reports use a random installation identifier, are stored privately for up to 90 days, and exclude names, access codes, chat, screenshots, exact positions and routes. See the [tester guide](BETA-TESTING.md#beta-statistics-and-privacy) for details.
+
+## Relic Search and Market
+
+The lower panel has Party, Relic Search and Market tabs. Search and results are on the left; pins and market watches are on the right. Relic Search finds relics and their crafted items, with tiers shown on pinned relics. Search is scoped to the selected main-map province; when there are no local matches, other-province matches can be shown or pinned directly.
+
+Market detects your game server and shows listings for the selected province, including item icons, quantity available, normal-stack price and listing total. Hovering a result highlights its stall. Market data is supplied by gaming.tools and updates hourly; listings may have sold since the last update. World-wide watches check all provinces on your server for an item, optionally below a maximum normal-stack price. New matching listings appear in the tracked list with pin controls and a Market-tab notification. Checks run while Atlas is open.
+
+You can keep multiple relic and market pins, each with an independent Route checkbox. Pins remain until manually removed. Green relic and blue market dotted guides use the appropriate gates for another province. Named encounter replay icons take visual priority at the same POI without deleting a relic pin. These are straight direction guides, not navigable road routes.

@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.923 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.23/Pax-Dei-Atlas-Setup-0.9.23-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.924 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.24/Pax-Dei-Atlas-Setup-0.9.24-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -8,7 +8,7 @@
 4. Log into Pax Dei, use the Medium game-UI baseline and open the in-game map with your player arrow visible to establish position.
 5. Enable and size the minimap as desired. Try filters, favourites, flags, route tracing and named encounters. Test party tools with another tester using a separate party room code.
 
-An internet connection is required to activate and validate access. Beta codes normally expire after14 days unless the owner specifies otherwise. Keep access codes private. The beta installer is not Windows publisher-signed yet; Windows may show an unknown-publisher or reputation prompt. Only download from this repository's release links.
+An internet connection is required to activate and validate access. Beta access stays valid until the project owner revokes it. Keep access codes private. The beta installer is not Windows publisher-signed yet; Windows may show an unknown-publisher or reputation prompt. Only download from this repository's release links.
 
 ## Things to test
 

@@ -8,9 +8,9 @@ Pax Dei Atlas brings a readable main map, an adjustable minimap, party tools and
 
 ## Beta status
 
-**0.923 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.924 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.23/Pax-Dei-Atlas-Setup-0.9.23-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.23) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.24/Pax-Dei-Atlas-Setup-0.9.24-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.24) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
 
@@ -30,6 +30,8 @@ This public repository contains feature information, screenshots and beta downlo
 | Roll, Pass, Ready and Wait | Make group decisions with animated cards, a winner indicator, ready checks and short wait requests. |
 | Named encounters | See possible spawn locations and illustrated enemy, relic and crafting-result cards. |
 | Dungeon references | View supported dungeon maps and encounter information. Position tracking pauses inside dungeons. |
+| Relic Search | Find relics and crafted items, see tiers, and keep multiple route pins. |
+| Market and watches | Browse server/province listings, compare quantity/stack/total prices, and watch for new matching offers. |
 | Beta access and updates | Unlock with a beta access code, retain saved access, and install future approved updates from inside Atlas. |
 
 **[Open the complete feature guide and screenshot gallery →](FEATURES.md)**
