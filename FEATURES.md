@@ -1,6 +1,6 @@
 # Pax Dei Atlas feature guide
 
-Atlas is a Windows map companion for Pax Dei. This guide shows the current beta interface. Screenshots use a fictional party and sample values; the interface and behavior may change during development. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
+Atlas is a Windows map companion for Pax Dei. The main-map and search screenshots show the 0.924 interface. Other workflow images are from earlier beta builds and may have older styling. Screenshots use fictional party details and sample values; market prices shown are examples, not current offers. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
 
 [Back to the project overview](README.md)
 
@@ -10,7 +10,7 @@ The main map opens around your current area. Drag the parchment to pan, use the 
 
 Atlas uses visible game-map and compass information, then estimates movement between position confirmations. Tracking accuracy can vary, especially after interruptions or when landmarks are unclear. During a brief unreadable compass interval, Atlas can keep estimating movement from the last heading for up to eight seconds; a longer outage pauses movement until a fresh heading arrives. Turns during that interval can reduce accuracy. If the marker needs correcting, opening the in-game map with the player arrow visible can help Atlas confirm its position. Panning the game map to scenery without a player arrow should not become a position fix.
 
-![Main map and adjustable map/party divider](screenshots/main-map.png)
+![0.924 main map, single-row controls, Recenter and province selector below the map](screenshots/overview-0.924.png)
 
 ## Minimap
 
@@ -34,13 +34,13 @@ Use **Alt + left-click** on the map to add, replace or remove your flag. Party f
 
 Turn **Trace** on to show your recent route as a clear gold line with a dark outline. Small corrections can remain connected, while large position jumps start a separate section instead of drawing a long line across the map. The trail is temporary: disabling it clears it, and it starts fresh in a new app session. It is a route display, not an automatically calculated walking path.
 
-The main-map screenshot above includes an example flag and route trace.
+Flags and Trace remain separate from pinned relic/market destination guides.
 
 ## Party travel and the movable divider
 
 Create a room or join with a shared room code. The party panel shows travellers, their areas and approximate distances when their positions are available. Party markers and names also appear on the map.
 
-Drag the divider between the map and the party panel to give either section more space. Make the map shorter to see more party members, or give it more of the window when you want to concentrate on navigation. Scrolling remains available when a section needs it.
+Drag the divider between the map and the party panel to give either section more space. Make the map shorter to see more party members, or give it more of the window when you want to concentrate on navigation. The map has a minimum usable height, and the divider handle stays clear of the frame. Scrolling remains available when a section needs it.
 
 Treat a real room code as an invitation to your group. The example below uses a fictional room rather than a live one.
 
@@ -70,11 +70,13 @@ Use **Wait** to ask the party to pause briefly. The request appears as a short n
 
 When you approach a supported possible encounter, Atlas can display an illustrated set of cards: the named enemy, its special relic and a related crafting result. These describe known relationships; they do not detect whether that enemy is alive.
 
+Borders follow the crafted item’s tier: II uses a simple brass border, III adds sculpted corner detail, and IV uses raised ornaments.
+
 ![Named enemy, relic and related equipment cards](screenshots/named-enemy-cards.png)
 
 Mapped POIs trigger from about **65 metres** away; unmatched standalone locations use **90 metres**. Nearby enemies share their POI’s complete card sequence. New POI card groups queue after the current group. Surface discoveries retain their circle highlight and larger brass encounter-card replay icon for **15 minutes**. Click to replay the whole group; replay does not extend expiry, and walking away/back does not automatically repeat it during that window. Several discoveries can remain visible. After expiry, the next approach can trigger again.
 
-Only one nearby dotted guide appears. Clicking replay selects that encounter; a newly triggered encounter takes over. Ordinary POI guide lines disconnect beyond **100 metres**, while the replay marker remains for its full window. Named cards sit at the game viewport’s bottom centre, scale with resolution, and use an opaque heading at the Medium stamina-bar position. Surface cards no longer black out the minimap. Use Named to turn the feature off.
+One named-encounter dotted guide follows the last clicked replay or newly triggered encounter. Moving near another highlighted area does not clear that selection. The replay marker remains for its 15-minute window. Icons pulse slowly while their cards are playing. Named cards sit at the game viewport’s bottom centre, scale with resolution, and use an opaque heading at the Medium stamina-bar position. Surface cards no longer black out the minimap. Use Named to turn the feature off.
 
 Some supported enemies have broader open-ground spawn zones, including reviewed areas in southwest Kerys. Those remain area highlights because a single tower marker would misrepresent their records. Several possible spawn locations do not mean that every displayed enemy can spawn at every point inside a combined area.
 
@@ -104,7 +106,7 @@ The default shortcuts are **Alt + M** to show or hide the minimap, **Alt + I** t
 
 ## Beta access and saved sign-in
 
-An authorized beta access code unlocks Atlas. The app asks for the code, not an email address. Valid saved access is checked when the app opens; returning users should not see the unlock form during that check. The form is shown when access is missing, expired or cancelled.
+An authorized beta access code unlocks Atlas. The app asks for the code, not an email address. Valid saved access is checked when the app opens; returning users should not see the unlock form during that check. The form is shown when access is missing, invalid or revoked. Beta access codes remain valid until the owner revokes them.
 
 Online checks keep beta access revocable. Brief connection interruptions are allowed. A longer interruption can pause access, but the saved session is retained and can resume automatically when the connection returns. Updating the app keeps that saved session in the existing profile.
 
@@ -136,23 +138,54 @@ Atlas is a fan-made companion in active development. Feedback, ideas and reprodu
 
 Please do not include real beta codes, private room codes, personal information or unrelated player chat in public reports. Atlas is unofficial and is not affiliated with or endorsed by Mainframe Industries.
 
-## Beta 0.91 encounter presentation
-Named-card borders follow the crafted item's tier: II keeps a simple brass border, III uses sculpted corner detail, and IV adds raised ornaments. Every enemy card set uses the same drum cue and a 10-second hold between two-second fades.
-
-![Tier II, III and IV cards from the beta renderer](screenshots/named-card-tiers.png)
-
-POI notifications use65m entry/100m exit. Standalone encounters use90m entry/100m exit with a larger180m-wide highlight. New POI highlights replace older ones immediately; already playing card groups finish before the next queued group.
-
-Dungeon recognition currently estimates entry after60 seconds within30m of a documented entrance. The main window shows the dungeon reference map and roster; the minimap shows dungeon status. Indoor position tracking is unavailable. Detection can trigger while waiting outside and currently depends on Named being enabled.
-
 ## Optional beta statistics
 
 Settings → Privacy controls usage and reliability reporting, enabled by default for beta testing. Reports use a random installation identifier, are stored privately for up to 90 days, and exclude names, access codes, chat, screenshots, exact positions and routes. See the [tester guide](BETA-TESTING.md#beta-statistics-and-privacy) for details.
 
-## Relic Search and Market
+## Relic Search
 
-The lower panel has Party, Relic Search and Market tabs. Search and results are on the left; pins and market watches are on the right. Relic Search finds relics and their crafted items, with tiers shown on pinned relics. Search is scoped to the selected main-map province; when there are no local matches, other-province matches can be shown or pinned directly.
+Select **Relic Search** in the lower panel. Type a relic name or a crafted weapon/armour name; autocomplete helps with names, and the list underneath filters as you type. Results belong to the province selected on the main map.
 
-Market detects your game server and shows listings for the selected province, including item icons, quantity available, normal-stack price and listing total. Hovering a result highlights its stall. Market data is supplied by gaming.tools and updates hourly; listings may have sold since the last update. World-wide watches check all provinces on your server for an item, optionally below a maximum normal-stack price. New matching listings appear in the tracked list with pin controls and a Market-tab notification. Checks run while Atlas is open.
+Click a result to show its POI. Use its pushpin button to save it in the right column. Pinned relics show the relic tier, what it crafts and the crafted-item tiers. Relic locations come from the curated named-enemy encounter data; dungeon relics point to their entrances. Several relics at one POI share one map marker.
 
-You can keep multiple relic and market pins, each with an independent Route checkbox. Pins remain until manually removed. Green relic and blue market dotted guides use the appropriate gates for another province. Named encounter replay icons take visual priority at the same POI without deleting a relic pin. These are straight direction guides, not navigable road routes.
+![Relic Search with filtered results, crafted-item tiers and multiple saved destinations](screenshots/relic-search.png)
+
+### Matches on another province
+
+When nothing matches the selected province, Atlas lists matches elsewhere. **Show on map** switches the main map and fits the matching locations. The pin beside an individual result saves it without changing the map you are viewing. The minimap continues following your player location.
+
+![Results on other provinces with Show on map and individual pin controls](screenshots/relic-other-provinces.png)
+
+## Market search
+
+Select **Market** to browse listings on your detected game server and the province selected below the main map. Search with autocomplete to filter the items and stall markers. Hover a listing to highlight its stall, or click it to show the location. If nothing matches locally, other-province results can be shown or pinned directly.
+
+Each listing shows its own item icon and three values:
+
+| Column | Meaning |
+| --- | --- |
+| Qty | Total quantity available in that listing. |
+| Stack | Gold price for the item's normal full inventory stack. |
+| Total | Gold cost of all quantity in the listing. |
+
+A partial stack can have a Total lower than its Stack price; a bulk listing can have a higher Total. The same columns appear in search results, other-province results and tracked matches. Touching market markers merge at the current zoom, keeping crowded stalls readable.
+
+![Market search results with item icons and matching quantity, stack-price and total-price columns](screenshots/market-search.png)
+
+Market data is supplied by **gaming.tools** and updates hourly. Listings may have sold since the last snapshot; Atlas does not claim that an item is still available in game.
+
+## Market item watches
+
+Open **Tracked items** on the right and choose **Track item**. Pick an exact item name using autocomplete. Optionally enter a **maximum gold per normal stack**, or leave it empty to watch for availability at any price. Watches cover every province on your detected server, rather than only the map currently displayed.
+
+When a new matching listing appears in a checked snapshot, the Market tab receives a notification. The watch shows matching item icons, provinces, quantities, stack prices and totals. Click a matching listing to show it, or use its pin to save it without switching maps. **Mark notifications read** clears the badge; the remove button stops that watch. Checks run while Atlas is open and use the hourly source snapshots, so notifications are not instantaneous.
+
+![Server-wide tracked offers alongside search results, with independent map pin buttons](screenshots/market-watches.png)
+
+## Multiple pins and directional guides
+
+Keep multiple relic and market destinations at once. Each pin has its own **Route** checkbox: show one guide, several guides or none, while keeping the pins saved. Green guides identify relic destinations; blue guides identify market destinations. Use the larger **×** to remove a pin. Pins and watch preferences persist between launches.
+
+A destination in another province routes first to a connecting gate, marked with the destination’s relic or market symbol, then continues from the arrival gate. These are straight direction guides, not walking-path navigation. Changing the viewed main-map province does not change where your player is tracked.
+
+Approaching a relic POI or playing named cards does not delete its pin. The named replay icon takes visual priority at that POI, and named-encounter tracking remains independent of relic and market guides. The gold player arrow renders above the map icons so a nearby replay/stall symbol cannot cover it.

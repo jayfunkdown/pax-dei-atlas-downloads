@@ -2,9 +2,9 @@
 
 **A map companion for exploring Pax Dei together.**
 
-Pax Dei Atlas brings a readable main map, an adjustable minimap, party tools and illustrated encounter references into one Windows companion app. Keep your group together, mark a destination, check nearby points of interest, and make the next adventure easier to organize.
+Pax Dei Atlas brings a readable main map, an adjustable minimap, Relic Search, server market listings, item-price watches, party tools and illustrated encounter references into one Windows companion app. Keep your group together, mark a destination, check nearby points of interest, and make the next adventure easier to organize.
 
-![Pax Dei Atlas main map with a sample party, a sample route trace and map markers](screenshots/main-map.png)
+![Atlas 0.924 main map with the single-row toolbar, Recenter, province selector and fictional party](screenshots/overview-0.924.png)
 
 ## Beta status
 
@@ -34,13 +34,27 @@ This public repository contains feature information, screenshots and beta downlo
 | Market and watches | Browse server/province listings, compare quantity/stack/total prices, and watch for new matching offers. |
 | Beta access and updates | Unlock with a beta access code, retain saved access, and install future approved updates from inside Atlas. |
 
+## New in 0.924
+
+Search for relics or what they craft, keep several destinations pinned, and choose which directional guides you want to see. Browse market listings with quantity, normal-stack price and total cost, or watch an item across your server for a matching offer.
+
+### Relic Search and persistent pins
+
+![Relic search results with crafted-item tiers, multiple pins and independent route toggles](screenshots/relic-search.png)
+
+### Market listings and tracked offers
+
+![Market search and server-wide tracked offers with item icons and quantity, stack and total columns](screenshots/market-watches.png)
+
+The new screenshots use the actual 0.924 renderer, fictional party details and example market snapshots. Prices shown are examples, not current offers.
+
 **[Open the complete feature guide and screenshot gallery →](FEATURES.md)**
 
 ## A few things to know
 
 - Tracking is approximate. Atlas reads visible game-map and compass information and estimates movement between confirmations. It can need another clear view of the in-game map to correct its position.
 - Named-enemy locations are potential spawn records, not confirmation that an enemy is alive or currently present.
-- Screenshots show the actual beta interface with a fictional party and sample status values. The update-available screenshot is an illustration; your installed version determines whether an update is offered.
+- Screenshots show the actual beta interface with fictional party details and sample status/market values. Older workflow images are labelled in the feature guide. The update-available screenshot is an illustration; your installed version determines whether an update is offered.
 - A beta access code unlocks Atlas. A party room code invites someone to your group; these are different codes.
 
 ## Feedback

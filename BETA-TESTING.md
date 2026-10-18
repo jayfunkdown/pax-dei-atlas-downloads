@@ -15,6 +15,9 @@ An internet connection is required to activate and validate access. Beta access 
 - Tracking while stationary, walking, sprinting, crossing area boundaries, opening the game map, closing chat and returning from menus.
 - Named cards, crafted-item tiers, drum volume, reentering a POI and moving between nearby POIs.
 - Main map/minimap size, zoom, filters and favourites; shared flags and gold route lines.
+- Relic/crafted-item search, direct pins for other provinces, multiple pins, Route checkboxes and gate guides.
+- Market search and item icons, Qty/Stack/Total values, server-wide price watches and new-match notifications.
+- Single-row toolbar, Recenter and the map selector below the map at different window widths.
 - Party travel and Roll/Pass, Ready and Wait tools.
 - Dungeon entry, maps, enemy roster and exit recovery.
 
