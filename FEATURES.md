@@ -1,10 +1,14 @@
 # Pax Dei Atlas feature guide
 
-Atlas is a Windows map companion for Pax Dei. The main-map and search screenshots show the 0.924 interface. Other workflow images are from earlier beta builds and may have older styling. Screenshots use fictional party details and sample values; market prices shown are examples, not current offers. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
+Atlas is a Windows map companion for Pax Dei. The main-map and search screenshots show the 0.924 interface; 0.925 adds the fully collapsed map view. Other workflow images are from earlier beta builds and may have older styling. Screenshots use fictional party details and sample values; market prices shown are examples, not current offers. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
 
 [Back to the project overview](README.md)
 
 ## Main map and position tracking
+
+Drag the horizontal divider all the way up to fold away the map and give the lower panel the available space, including on 1280×720 screens. Drag down to reopen, or double-click to reset.
+
+![Collapsed map at 1280×720](screenshots/collapsed-map-0.925.png)
 
 The main map opens around your current area. Drag the parchment to pan, use the mouse wheel or the plus/minus controls to zoom, and choose another province from the selector below the map. Recenter returns to your current area. Crossing an area boundary keeps your chosen zoom. Small position corrections can move the marker without constantly moving the whole camera.
 
@@ -189,3 +193,7 @@ Keep multiple relic and market destinations at once. Each pin has its own **Rout
 A destination in another province routes first to a connecting gate, marked with the destination’s relic or market symbol, then continues from the arrival gate. These are straight direction guides, not walking-path navigation. Changing the viewed main-map province does not change where your player is tracked.
 
 Approaching a relic POI or playing named cards does not delete its pin. The named replay icon takes visual priority at that POI, and named-encounter tracking remains independent of relic and market guides. The gold player arrow renders above the map icons so a nearby replay/stall symbol cannot cover it.
+
+### Search map results in 0.925
+
+Relic Search and Market display matching locations on the main map as you type. Opening a tab with an empty search does not add all results to the map. Clearing the search hides result icons while keeping saved pins and their routes.
