@@ -1,6 +1,6 @@
 # Pax Dei Atlas feature guide
 
-Atlas is a Windows map companion for Pax Dei. The main-map and search screenshots show the 0.924 interface; 0.925 adds the fully collapsed map view. Other workflow images are from earlier beta builds and may have older styling. Screenshots use fictional party details and sample values; market prices shown are examples, not current offers. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
+Atlas is a Windows map companion for Pax Dei. The current-location and combined-stock screenshots show the 0.926 interface (the stock preview predates the heading rearrangement). Other main-map and search screenshots show 0.924; 0.925 adds the fully collapsed map view. Other workflow images are from earlier beta builds and may have older styling. Screenshots use fictional party details and sample values; market prices shown are examples, not current offers. An invited-testers beta is now available; see [Beta testing](BETA-TESTING.md) for downloads and setup.
 
 [Back to the project overview](README.md)
 
@@ -9,6 +9,10 @@ Atlas is a Windows map companion for Pax Dei. The main-map and search screenshot
 Drag the horizontal divider all the way up to fold away the map and give the lower panel the available space, including on 1280×720 screens. Drag down to reopen, or double-click to reset.
 
 ![Collapsed map at 1280×720](screenshots/collapsed-map-0.925.png)
+
+The gold **Current location:** heading sits above the map frame, with the province and area on one line and the existing fade effect. When viewing another map, the heading says **Viewing map:** instead.
+
+![Current-location heading above the map frame in 0.926](screenshots/current-location-0.926.png)
 
 The main map opens around your current area. Drag the parchment to pan, use the mouse wheel or the plus/minus controls to zoom, and choose another province from the selector below the map. Recenter returns to your current area. Crossing an area boundary keeps your chosen zoom. Small position corrections can move the marker without constantly moving the whole camera.
 
@@ -44,7 +48,7 @@ Flags and Trace remain separate from pinned relic/market destination guides.
 
 Create a room or join with a shared room code. The party panel shows travellers, their areas and approximate distances when their positions are available. Party markers and names also appear on the map.
 
-Drag the divider between the map and the party panel to give either section more space. Make the map shorter to see more party members, or give it more of the window when you want to concentrate on navigation. The map has a minimum usable height, and the divider handle stays clear of the frame. Scrolling remains available when a section needs it.
+Drag the divider between the map and the party panel to give either section more space. Make the map shorter to see more party members, or give it more of the window when you want to concentrate on navigation. The map can fold completely away beneath the toolbar, and the divider handle stays clear of the frame. Scrolling remains available when a section needs it.
 
 Treat a real room code as an invitation to your group. The example below uses a fictional room rather than a live one.
 
@@ -162,17 +166,17 @@ When nothing matches the selected province, Atlas lists matches elsewhere. **Sho
 
 ## Market search
 
-Select **Market** to browse listings on your detected game server and the province selected below the main map. Search with autocomplete to filter the items and stall markers. Hover a listing to highlight its stall, or click it to show the location. If nothing matches locally, other-province results can be shown or pinned directly.
+Select **Market** to browse listings on your detected game server. With an empty search, the list starts with the selected province and result markers stay hidden. Click a row to show that one stall. Search with autocomplete to see matching offers across all maps on your server: the current map comes first, followed by the other maps. Matching markers appear on the currently viewed map as you type. Other-map results can be shown or pinned directly.
 
-Each listing shows its own item icon and three values:
+Offers for the same item, province and stall are combined when their item quality and normal stack size match. Rows with no reliable stall identity stay separate. Each row shows its item icon and three values:
 
 | Column | Meaning |
 | --- | --- |
-| Qty | Total quantity available in that listing. |
-| Stack | Gold price for the item's normal full inventory stack. |
-| Total | Gold cost of all quantity in the listing. |
+| Qty | Total quantity available in the displayed stall offer. |
+| Stack | Gold price for the item's normal full inventory stack; a range if combined stock has different prices. |
+| Total | Sum of the actual gold cost for all quantity in that row. |
 
-A partial stack can have a Total lower than its Stack price; a bulk listing can have a higher Total. The same columns appear in search results, other-province results and tracked matches. Touching market markers merge at the current zoom, keeping crowded stalls readable.
+For example, a stall with 4,000 charcoal can show a 5–8 gold stack-price range and a 290 gold total. Tracked matches are filtered by the watch price before their qualifying stock is combined. A partial stack can have a Total lower than its Stack price; a bulk listing can have a higher Total. The same columns appear in search results, other-province results and tracked matches. Touching market markers merge at the current zoom, keeping crowded stalls readable.
 
 ![Market search results with item icons and matching quantity, stack-price and total-price columns](screenshots/market-search.png)
 
@@ -194,6 +198,8 @@ A destination in another province routes first to a connecting gate, marked with
 
 Approaching a relic POI or playing named cards does not delete its pin. The named replay icon takes visual priority at that POI, and named-encounter tracking remains independent of relic and market guides. The gold player arrow renders above the map icons so a nearby replay/stall symbol cannot cover it.
 
-### Search map results in 0.925
+### Search map results in 0.926
 
-Relic Search and Market display matching locations on the main map as you type. Opening a tab with an empty search does not add all results to the map. Clearing the search hides result icons while keeping saved pins and their routes.
+Relic Search and Market display matching locations on the main map as you type. Opening a tab with an empty search does not add all results to the map. Clicking a listed result while the search is empty reveals only that selected destination; hovering does not populate an empty map. Clearing the search hides temporary result icons while keeping saved pins and their routes.
+
+![Combined stall stock with quantity, stack-price range, total and one clicked marker; preview before the heading rearrangement](screenshots/market-stall-stock-0.926.png)

@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.925 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.25/Pax-Dei-Atlas-Setup-0.9.25-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.926 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.26/Pax-Dei-Atlas-Setup-0.9.26-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -16,14 +16,16 @@ An internet connection is required to activate and validate access. Beta access 
 - Named cards, crafted-item tiers, drum volume, reentering a POI and moving between nearby POIs.
 - Main map/minimap size, zoom, filters and favourites; shared flags and gold route lines.
 - Relic/crafted-item search, direct pins for other provinces, multiple pins, Route checkboxes and gate guides.
-- Market search and item icons, Qty/Stack/Total values, server-wide price watches and new-match notifications.
+- Market search across all maps, current-map-first ordering, item icons, combined stall stock, Qty/Stack/Total values, server-wide price watches and new-match notifications. A stack-price range means the combined stock contains different prices.
+- Empty searches should leave result icons hidden; clicking one listed relic or market item should reveal only its destination. Saved pins remain visible.
+- Travel through PvP gates in both directions, especially Wildlands and home-valley returns. Record the approximate time, departure, destination, and whether opening the game map was needed.
 - Single-row toolbar, Recenter and the map selector below the map at different window widths.
 - Party travel and Roll/Pass, Ready and Wait tools.
 - Dungeon entry, maps, enemy roster and exit recovery.
 
 ## Current limits
 
-Tracking is approximate. Wrong corrections, drift or brief pauses can occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
+Tracking is approximate. Portal and area-transition recovery has improved, but wrong corrections, drift or pauses can still occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
 
 ## Send feedback
 

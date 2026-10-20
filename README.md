@@ -4,13 +4,13 @@
 
 Pax Dei Atlas brings a readable main map, an adjustable minimap, Relic Search, server market listings, item-price watches, party tools and illustrated encounter references into one Windows companion app. Keep your group together, mark a destination, check nearby points of interest, and make the next adventure easier to organize.
 
-![Atlas 0.924 main map with the single-row toolbar, Recenter, province selector and fictional party](screenshots/overview-0.924.png)
+![Atlas 0.926 with its current-location heading above the frame and a fictional party](screenshots/current-location-0.926.png)
 
 ## Beta status
 
-**0.925 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.926 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.25/Pax-Dei-Atlas-Setup-0.9.25-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.25) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.26/Pax-Dei-Atlas-Setup-0.9.26-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.26) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
 
@@ -34,7 +34,17 @@ This public repository contains feature information, screenshots and beta downlo
 | Market and watches | Browse server/province listings, compare quantity/stack/total prices, and watch for new matching offers. |
 | Beta access and updates | Unlock with a beta access code, retain saved access, and install future approved updates from inside Atlas. |
 
-## New in 0.924
+## New in 0.926
+
+Search market availability across every map on your server, with the current map first. Stock for the same item at the same stall is combined into one row with quantity, normal-stack price or price range, and total cost. Empty searches keep the map clear; clicking a relic or market result reveals just that destination.
+
+The current-location heading now sits above the map frame. This release also improves portal and area-transition recovery, large-result performance, window loading, saved-access recovery and update handling. Tracking remains approximate and portal recovery is still being tested in live play; opening the game map can help confirm a position.
+
+![Combined charcoal stock and one clicked market destination; preview before the location-heading rearrangement](screenshots/market-stall-stock-0.926.png)
+
+These 0.926 screenshots use the actual renderer with fictional party details and example market snapshots. Prices are examples, not current offers. [Read the full 0.926 release notes](RELEASE-0.926.md).
+
+## Relic Search and market tools
 
 Search for relics or what they craft, keep several destinations pinned, and choose which directional guides you want to see. Browse market listings with quantity, normal-stack price and total cost, or watch an item across your server for a matching offer.
 
