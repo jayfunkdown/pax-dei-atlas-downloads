@@ -32,7 +32,7 @@ The minimap can be shown or hidden independently of the main window. Close the m
 
 Choose the locations, resources, creatures and other map categories you want to see. Search for a particular entry, expand a category, or turn a group on or off. The filter panel opens over the map, leaving the map layout in place.
 
-Pin up to four favourites to make frequently used filters accessible on both maps. For example, keep a useful resource type nearby without reopening the full filter list each time.
+Pin favourites to make frequently used filters accessible on the main map. The first four also appear on the minimap; the main-map controls scroll when needed. Escape closes Filters, including from its search field. For example, keep a useful resource type nearby without reopening the full filter list each time.
 
 ![Filter panel and searchable map categories](screenshots/filters.png)
 

@@ -8,9 +8,9 @@ Pax Dei Atlas brings a readable main map, an adjustable minimap, Relic Search, s
 
 ## Beta status
 
-**0.926 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.927 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.26/Pax-Dei-Atlas-Setup-0.9.26-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.26) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.27/Pax-Dei-Atlas-Setup-0.9.27-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.27) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
 
@@ -24,7 +24,7 @@ This public repository contains feature information, screenshots and beta downlo
 | --- | --- |
 | Main map | Pan and zoom, see your approximate position, and adjust the space shared with the party panel. |
 | Minimap | A circular map with adjustable size and opacity, convenient controls and party directions. |
-| Filters and favourites | Choose which locations, resources, creatures and other map entries to show; pin up to four favourites. |
+| Filters and favourites | Choose which locations, resources, creatures and other map entries to show; pin favourites on the main map, with the first four also on the minimap. |
 | Shared flags and trails | Mark a destination and follow a gold line recording of your recent route. |
 | Party travel | Join with a room code, see shared party positions and check each traveller's area and approximate distance. |
 | Roll, Pass, Ready and Wait | Make group decisions with animated cards, a winner indicator, ready checks and short wait requests. |
@@ -34,15 +34,9 @@ This public repository contains feature information, screenshots and beta downlo
 | Market and watches | Browse server/province listings, compare quantity/stack/total prices, and watch for new matching offers. |
 | Beta access and updates | Unlock with a beta access code, retain saved access, and install future approved updates from inside Atlas. |
 
-## New in 0.926
+## New in 0.927
 
-Search market availability across every map on your server, with the current map first. Stock for the same item at the same stall is combined into one row with quantity, normal-stack price or price range, and total cost. Empty searches keep the map clear; clicking a relic or market result reveals just that destination.
-
-The current-location heading now sits above the map frame. This release also improves portal and area-transition recovery, large-result performance, window loading, saved-access recovery and update handling. Tracking remains approximate and portal recovery is still being tested in live play; opening the game map can help confirm a position.
-
-![Combined charcoal stock and one clicked market destination; preview before the location-heading rearrangement](screenshots/market-stall-stock-0.926.png)
-
-These 0.926 screenshots use the actual renderer with fictional party details and example market snapshots. Prices are examples, not current offers. [Read the full 0.926 release notes](RELEASE-0.926.md).
+Improved recovery after same-area home ports, respawns and zone crossings; expanded main-map filter favourites with scrolling and Escape to close Filters; clearer text and search-pin visibility; corrected resource and wolf-cave map records. Live tracking testing continues. [Full release notes](RELEASE-0.927.md).
 
 ## Relic Search and market tools
 
