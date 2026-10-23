@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.927 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.27/Pax-Dei-Atlas-Setup-0.9.27-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.928 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.28/Pax-Dei-Atlas-Setup-0.9.28-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -12,6 +12,8 @@ An internet connection is required to activate and validate access. Beta access 
 
 ## Things to test
 
+- Y auto-path on foot and on horseback: the marker should keep moving and follow the road, including at junctions and T-junctions. Note the road and junction if it leaves the road.
+- Riding: mount detection, sprinting and speed on and off roads.
 - Tracking while stationary, walking, sprinting, crossing area boundaries, opening the game map, closing chat and returning from menus.
 - Named cards, crafted-item tiers, drum volume, reentering a POI and moving between nearby POIs.
 - Main map/minimap size, zoom, filters and favourites; shared flags and gold route lines.
@@ -25,7 +27,7 @@ An internet connection is required to activate and validate access. Beta access 
 
 ## Current limits
 
-Tracking is approximate. Portal and area-transition recovery has improved, but wrong corrections, drift or pauses can still occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
+Tracking is approximate. Some roads are not mapped yet and road forks are still being tuned. Portal and area-transition recovery has improved, but wrong corrections, drift or pauses can still occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
 
 ## Send feedback
 

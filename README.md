@@ -8,9 +8,9 @@ Pax Dei Atlas brings a readable main map, an adjustable minimap, Relic Search, s
 
 ## Beta status
 
-**0.927 Beta is available for invited testers on Windows 10/11, 64-bit.**
+**0.928 Beta is available for invited testers on Windows 10/11, 64-bit.**
 
-**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.27/Pax-Dei-Atlas-Setup-0.9.27-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.27) · [Tester quick start](BETA-TESTING.md)
+**[Download Pax Dei Atlas Beta](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.28/Pax-Dei-Atlas-Setup-0.9.28-x64.exe)** · [Release notes](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/tag/v0.9.28) · [Tester quick start](BETA-TESTING.md)
 
 A private beta access code is required to unlock the app. Codes are supplied individually; none are published here. The installer includes the artwork and supporting runtime, and installs for your Windows account without administrator access. This early beta is not Windows publisher-signed yet, so Windows may show an unknown-publisher or reputation prompt. Use the official download linked above.
 
@@ -34,9 +34,9 @@ This public repository contains feature information, screenshots and beta downlo
 | Market and watches | Browse server/province listings, compare quantity/stack/total prices, and watch for new matching offers. |
 | Beta access and updates | Unlock with a beta access code, retain saved access, and install future approved updates from inside Atlas. |
 
-## New in 0.927
+## New in 0.928
 
-Improved recovery after same-area home ports, respawns and zone crossings; expanded main-map filter favourites with scrolling and Escape to close Filters; clearer text and search-pin visibility; corrected resource and wolf-cave map records. Live tracking testing continues. [Full release notes](RELEASE-0.927.md).
+Y auto-path follows roads on foot and on horseback, including junctions; on-foot auto-run fixed; riding detection with horse speeds and sprint; more reliable game-map reads near corners and borders; fixed the marker sticking after PvP-gate ports; smaller future updates. Some roads are not mapped yet and road forks are still being tuned. [Full release notes](RELEASE-0.928.md).
 
 ## Relic Search and market tools
 
