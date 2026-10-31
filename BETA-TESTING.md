@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.928 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.28/Pax-Dei-Atlas-Setup-0.9.28-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.929 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.29/Pax-Dei-Atlas-Setup-0.9.29-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -12,6 +12,8 @@ An internet connection is required to activate and validate access. Beta access 
 
 ## Things to test
 
+- Lyonesse: Wolf Elder should appear as four standalone pins, not inside the two wider encounter areas.
+- Residual Collector should not appear as a named encounter card. Ordinary map spawn markers are unchanged.
 - Y auto-path on foot and on horseback: the marker should keep moving and follow the road, including at junctions and T-junctions. Note the road and junction if it leaves the road.
 - Riding: mount detection, sprinting and speed on and off roads.
 - Tracking while stationary, walking, sprinting, crossing area boundaries, opening the game map, closing chat and returning from menus.
