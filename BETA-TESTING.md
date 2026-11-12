@@ -1,6 +1,6 @@
 # Pax Dei Atlas beta testing
 
-[Download 0.929 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.29/Pax-Dei-Atlas-Setup-0.9.29-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
+[Download 0.932 Beta for Windows x64](https://github.com/jayfunkdown/pax-dei-atlas-downloads/releases/download/v0.9.32/Pax-Dei-Atlas-Setup-0.9.32-x64.exe) · [Discord](https://discord.gg/YjJxCBbeJU)
 
 1. Get your private beta access code from the project owner.
 2. Download and run the official Setup file. It installs for your Windows account without administrator access.
@@ -29,7 +29,7 @@ An internet connection is required to activate and validate access. Beta access 
 
 ## Current limits
 
-Tracking is approximate. Some roads are not mapped yet and road forks are still being tuned. Portal and area-transition recovery has improved, but wrong corrections, drift or pauses can still occur; reopening the game map with the player arrow visible can help recovery. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
+Tracking is approximate. Some roads are not mapped yet and road forks are still being tuned. Portal and area-transition recovery has improved, but wrong corrections, drift or pauses can still occur; reopening the game map with the player arrow visible can help recovery. Auto-pathing and tracking are still buggy; press M to reset tracking if needed. Named locations show potential spawns, not live enemy presence. Dungeon mode requires repeated recognition of the interior Zone / Biome: {biome} tag; approaching an entrance alone does not start dungeon cards. Atlas remembers the nearby overworld entrance to select the dungeon. There is no indoor position tracking. The overworld returns after fresh position evidence. Please test this behavior in real gameplay.
 
 ## Send feedback
 
